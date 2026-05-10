@@ -3,6 +3,7 @@ from discord.ext import commands
 from discord import app_commands
 import json
 import os
+print("TOKEN =", os.getenv("DISCORD_TOKEN"))
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
